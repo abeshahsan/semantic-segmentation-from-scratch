@@ -1,9 +1,11 @@
 # Semantic Segmentation from Scratch
 
-[![Python](https://img.shields.io/badge/Python-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-orange)](https://pytorch.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-green?logo=jupyter)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 Independently implemented and trained U-Net and DeepLabV3+ semantic segmentation models from scratch in PyTorch on a personal PC for educational purposes. Applied to Kaggle's Carvana (binary masking) and Cityscapes (multi-class urban scenes) datasets, with integrated visualization tools for mask overlays and performance plotting.
 
@@ -15,7 +17,11 @@ Independently implemented and trained U-Net and DeepLabV3+ semantic segmentation
 - **Tools**: Jupyter notebooks for experiments, visualization scripts for predicted masks, and evaluation via pixel accuracy & mIoU.
 - **Educational Focus**: Hands-on from-scratch builds to explore challenges like resolution loss and feature fusion.
 
+## Model Architectures 
+### U-Net Architecture 
 ![U-Net Architecture](unet.png)
+### Deeplabv3+ Architecture 
+![DeeplabV3+ Architecture](deeplabv3plus.jpeg)
 
 
 ## Setup
